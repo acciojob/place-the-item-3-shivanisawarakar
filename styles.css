@@ -1,11 +1,18 @@
-
 /* Your CSS Code here. */
-.holder{
+.holder {
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
- 
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+  }
 
- 
+  .holder > div {
+    background: cyan;
+    text-align: center;
+    font-size: 30px;
+    width:200px;
+    height:100px;
+  }
+
+
  
